@@ -1,0 +1,62 @@
+body{
+	background-color: gray;
+}
+.navbar-brand{
+	font-family: "Ubuntu", sans-serif !important;
+	font-weight: bold !important;
+	font-size: 2em !important;
+	color: #ffff;
+}
+.custom-nav-item:hover{
+	background-color: #dc3545;
+	border: #dc3545;
+	border-radius: 10px;
+}
+.imgparent{
+	position: relative;
+}
+img{
+	height: 750px;
+	width: 100%;
+}
+.vid-content{
+	position: absolute;
+	z-index: 2;
+	top: 35%;
+	left: 35%;
+	text-align: center;
+}
+.bottom-banner{
+	color: #fff;
+	padding: 10px !important;
+}
+.stripe{
+	background: linear-gradient(240deg,#ed213a,#93291e) !important;
+	padding: 3rem !important;
+	height: 13rem !important;
+	margin-top: 4rem !important;
+	transform: rotate(10deg) !important;
+	z-index: -5;
+
+}
+
+
+
+
+
+
+@media screen and (min-width:0px) and (max-width:700px){
+	.my-content,
+	.txt-banner,
+	.stripe{
+		display: none !important;
+	}
+	.vid-content{
+		top: 12%;
+		left: 60%;
+	}
+	.custom-nav  .custom-nav-item a{
+		padding: 10px 20px !important;
+		background-color: #225470 !important;
+	}
+}
